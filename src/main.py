@@ -1,12 +1,9 @@
-from textnode import TextNode, text_type_bold
+from textnode import TextNode
 
 
 def main():
-    node = TextNode(
-        "Example Text Node", text_type_bold, "https://www.github.com/tidnaaB"
-    )
+    node = TextNode("This is a text node", "bold", "https://www.boot.dev")
     print(node)
 
 
-if __name__ == "__main__":
-    main()
+main()
